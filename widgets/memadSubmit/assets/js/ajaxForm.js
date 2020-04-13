@@ -1,9 +1,10 @@
 $(document).on('beforeSubmit', '#ajax-form-modal form', beforeSubmitHandler);  
 $(document).on('change', '#applyform-cvfile', function() {
     if (this.files.length) {
-        $('.drag-file-area').css('background-color', '#eafff2');
+        $('.drag-file-area').css('background-color', '#eafff2').append('<p id="file-selected" class="text-center">הקובץ נבחר בהצלחה!</p>');
     } else {
         $('.drag-file-area').css('background-color', 'transparent');
+        $('.drag-file-area #file-selected').remove();
     }
 });
 
