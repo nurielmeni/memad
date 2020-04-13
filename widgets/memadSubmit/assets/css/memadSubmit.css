@@ -62,6 +62,9 @@ and open the template in the editor.
     width: 100%;
 }
 
+#ajax-form-modal .form-group.field-applyform-cvfile.has-error #file-selected {
+    display: none;
+}
 /******* Thanks *******/
 .ajax-thanks-modal-wrapper h1 {
     font-weight: 200;
