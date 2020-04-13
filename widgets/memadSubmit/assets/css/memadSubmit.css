@@ -57,6 +57,11 @@ and open the template in the editor.
     margin-bottom: 20px;
 }
 
+#ajax-form-modalc #file-selected {
+    text-align: center;
+    width: 100%;
+}
+
 /******* Thanks *******/
 .ajax-thanks-modal-wrapper h1 {
     font-weight: 200;

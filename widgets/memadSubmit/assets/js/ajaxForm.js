@@ -2,7 +2,7 @@ $(document).on('beforeSubmit', '#ajax-form-modal form', beforeSubmitHandler);
 $(document).on('change', '#applyform-cvfile', function() {
     $('.drag-file-area #file-selected').remove();
     if (this.files.length) {
-        $('.drag-file-area').css('background-color', '#eafff2').append('<p id="file-selected" class="text-center">הקובץ נבחר בהצלחה!</p>');
+        $('.drag-file-area').css('background-color', '#eafff2').append('<p id="file-selected">הקובץ נבחר בהצלחה!</p>');
     } else {
         $('.drag-file-area').css('background-color', 'transparent');
     }
