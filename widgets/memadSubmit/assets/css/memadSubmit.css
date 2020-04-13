@@ -60,6 +60,8 @@ and open the template in the editor.
 #ajax-form-modal #file-selected {
     text-align: center;
     width: 100%;
+    color: #0b980b;
+    font-weight: bold;
 }
 
 #ajax-form-modal .form-group.field-applyform-cvfile.has-error #file-selected {
