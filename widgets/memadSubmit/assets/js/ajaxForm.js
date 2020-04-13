@@ -1,6 +1,6 @@
 $(document).on('beforeSubmit', '#ajax-form-modal form', beforeSubmitHandler);  
 $(document).on('change', '#applyform-cvfile', function() {
-    $('.drag-file-area #file-selected').remove();
+    $('.form-group.field-applyform-cvfile #file-selected').remove();
     if (this.files.length) {
         $('.form-group.field-applyform-cvfile').append('<p id="file-selected">הקובץ נבחר בהצלחה!</p>');
         $('.drag-file-area').css('background-color', '#eafff2');
